@@ -1,0 +1,63 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: Arial, sans-serif;
+}
+
+.main-container {
+    display: flex;
+    width: 80%;
+    height: 80%;
+    border: 2px solid #ccc;
+    overflow: hidden;
+}
+
+.input-section, .output-section {
+    width: 50%;
+    height: 100%;
+    overflow-y: auto;
+}
+
+.input-section {
+    background: #f0f0f0;
+    padding: 20px;
+}
+
+.output-section {
+    position: relative;
+    background: url('./celebrare.jpg');
+    color: #ffffff;
+    padding: 20px;
+}
+
+.output-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 24px;
+    text-align: center;
+}
+
+button {
+    background-color: #007bff;
+    color: #eef2f5;
+    padding: 12px;
+    border-radius:8px;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+.input-element{
+    margin:10px;
+    padding:10px;
+
+}

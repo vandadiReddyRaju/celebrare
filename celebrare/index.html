@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="index.css">
+
+    </head>
+    <body>
+        <div class="main-container">
+
+            <div class="output-section">
+                <h1 style="text-align: center; color: #368bf3; font-family: Roboto;">Celebrare</h1>
+                <h1 class="output-text" id="outputText">Sample Text</h1>
+                <button onclick="undo()">Undo</button>
+                <button onclick="redo()">Redo</button>
+            </div>
+
+
+            <div class="input-section">
+
+            <div class="input-element">
+                <label for="font-style" >Font Style:</label>
+                <select id="font-style">
+                    <option value="Arial">Arial</option>
+                    <option value="Verdana">Verdana</option>
+                    <option value="Georgia">Georgia</option>
+                    <option value="Courier New">Courier New</option>
+                    <option value="Helvetica">Helvetica</option>
+                    <option value="Times New Roman">Times New Roman</option>  
+                </select>
+
+            </div>
+            <br/>
+
+            <div  class="input-element">
+                <label for="font-size">Font Size:</label>
+                <select id="font-size">
+                    <option value="12">16px</option>
+                    <option value="16">20px</option>
+                    <option value="20">24px</option>
+                    <option value="24">28px</option>
+                    <option value="28">32px</option>
+                    <option value="32">36px</option>
+                </select>
+
+            </div>
+            <br/>
+
+            <div class="input-element">
+                <label for="text-color">Text Color:</label>
+                <input type="color" id="text-color">
+                <br/>
+            </div>
+
+            <div class="input-element">
+                <label for="input-text">Input Text:</label>
+                <input type="text" id="input-text" placeholder="Enter text">
+                <br/>
+            </div>
+            <div  class="input-element">
+                <button onclick="applyStyles()">Apply</button>
+            </div>
+                
+            </div>
+        </div>
+        <script src="index.js"></script>
+    </body>
+</html>
